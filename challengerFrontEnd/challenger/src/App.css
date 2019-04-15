@@ -31,3 +31,20 @@
     transform: rotate(360deg);
   }
 }
+
+.Side-menu {
+  width: 30%;
+  height: 100%;
+  float: left;
+  display: block;
+  position: fixed;
+  background-color: #61dafb;
+}
+
+.content {
+  height: 100%;
+  width: 70%;
+  float: right;
+  display: block;
+  position: relative;
+}

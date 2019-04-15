@@ -1,0 +1,11 @@
+.card {
+    background-color: #ff8300;
+}
+
+.search {
+    display: block;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    font-size: 20;
+    width: 100%;
+  }
