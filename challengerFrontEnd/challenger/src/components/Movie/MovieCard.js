@@ -12,13 +12,13 @@ function MovieCard({movie, classes}) {
     return(
 
         <Card className={classes.card}>
-        <CardHeader className={classes.cardHeader}
-        title={movie.original_title}
-        />
         <CardMedia
         className={classes.media}
         image =  {image_url}
-        title={movie.original_title}
+        title={movie.title}
+        />
+        <CardHeader className={classes.cardHeader}
+        title={movie.title}
         />
         <CardContent>
         <Typography component="p">
@@ -33,22 +33,18 @@ export default withStyles({
     card: {
         maxWidth: 280,
         margin: "1em",
-        maxHeight: 330
+        maxHeight: 270,
+        minHeigth: 270,
+        displa: "flex"
       },
       media: {
-        height: 0,
+        width: "100%",
+        height: "100%",
         paddingTop: '56.25%', // 16:9
       },
       cardHeader: {
+        flexShrink: 1,
+        margin: "1em",
         maxHeight: 50
       }
 })(MovieCard);
-
-/*
-        <Card className={classes.item}>
-            <CardMedia/>
-            <CardContent>
-                <Typography>{name}</Typography>
-            </CardContent>
-        </Card>
-        */

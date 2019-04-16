@@ -11,9 +11,7 @@ const Navbar = () => {
           <Typography variant="title" color="inherit">
             TMDb - The Movie Database
           </Typography>
-          
         </Toolbar>
-        <input className="search" placeholder="Search"/>
       </AppBar>
     </div>
     );
