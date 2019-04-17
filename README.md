@@ -7,11 +7,11 @@ ReactJs project using the TMDb API
 
 ### Prerequisites
 
-Git
-Node: any 8.x version starting with 8.4.0 or greater
-NPM: See NPM or Node.js website for installation instructions
-A fork of the repo (for any contributions)
-A clone of the reactjs.org repo on your local machine
+1. Git
+1. Node: any 8.x version starting with 8.4.0 or greater
+1. NPM: See NPM or Node.js website for installation instructions
+1. A fork of the repo (for any contributions)
+1. A clone of the reactjs.org repo on your local machine
 
 ### Installing
 
