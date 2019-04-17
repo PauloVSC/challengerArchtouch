@@ -33,4 +33,4 @@ In project folder do a 'npm start'
 
 ## Authors
 
-* **Paulo Costa** - *Initial work* - [PurpleBooth](https://github.com/PauloVSC)
+* **Paulo Costa**(https://github.com/PauloVSC)
