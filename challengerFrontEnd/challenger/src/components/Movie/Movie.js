@@ -67,9 +67,9 @@ class Movie extends Component {
        const docHeight = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
        const windowBottom = windowHeight + window.pageYOffset;
        if (windowBottom >= docHeight) {
-         this.state.page++;
+         let statePlus = this.state.page + 1;
          this.setState({
-           page: this.state.page
+           page: statePlus
          });
          axios.get(baseUrl + this.state.page + language + api_key).then(result =>{
              const movieData = result.data.results;

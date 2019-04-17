@@ -9,8 +9,8 @@ function MovieList ({moviedata}) {
         <Fragment>
             <h2>Movies List from TMDb</h2>
         <Grid container spacing={32} justify="center">
-        {moviedata.map( (results, index) => {
-            return <a href="" key={index} id={results.id}> <MovieCard movie={results}/> </a>
+        {moviedata.map( (results) => {
+            return <MovieCard movie={results}/>
         })}
         </Grid>
         </Fragment>
